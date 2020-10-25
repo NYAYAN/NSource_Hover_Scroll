@@ -1,0 +1,39 @@
+.hSCon ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  list-style: none;
+}
+.hSCon ul li {
+  width: 100%;
+}
+.hSCon ul li img {
+  width: 100%;
+}
+
+ul.vList {
+  display: flex;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+ul.vList .vItem {
+  display: flex;
+  border-bottom: 3px solid gray;
+  margin: 5px;
+  cursor: pointer;
+}
+ul.vList .vItem:hover {
+  border-color: red;
+}
+
+ul.imageList li {
+  display: none;
+}
+ul.imageList li:first-child {
+  display: block;
+}
