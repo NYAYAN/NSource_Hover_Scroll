@@ -1,0 +1,25 @@
+ul.nshSvList {
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+ul.nshSvList li.nshSvItem {
+  display: flex;
+  border-bottom: 3px solid gray;
+  margin: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+ul.nshSvList li.nshSvItem:hover {
+  border-color: red;
+}
+ul.nshSvList li.nshSvItem.active {
+  display: block;
+}

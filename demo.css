@@ -1,0 +1,16 @@
+ul.imageList {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  list-style: none;
+}
+
+ul.imageList li {
+  display: none;
+  width: 100%;
+}
+
+ul.imageList li img {
+  width: 100%;
+}
